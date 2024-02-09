@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tech_MSI</title>
+  </head>
+  <body style="height: 5000px;">
+    <header class="header" >
+      <div class="header-wrapper">
+            <div class="wrapper wrapper-content">
+                <p class="wrapper-day">Mon-Thu: 9:00 AM - 5:30 PM</p>
+                <p class="wrapper-address">Visit our showroom in 1234 Street Adress City Address, 1234 <a href="#" class="contact-us">Contact US</a></p>
+                <div class="wrapper-contact">
+                    <div class="wrapper-contact__phone">Call Us: (00) 1234 5678</div>
+                    <div class="wrapper-social ">
+                        <div class="social"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M17.1051 2.27661H2.89423C2.55247 2.27661 2.27637 2.55272 2.27637 2.89447V17.1053C2.27637 17.4471 2.55247 17.7232 2.89423 17.7232H17.1051C17.4468 17.7232 17.723 17.4471 17.723 17.1053V2.89447C17.723 2.55272 17.4468 2.27661 17.1051 2.27661ZM15.321 6.78508H14.0872C13.1199 6.78508 12.9326 7.24462 12.9326 7.92041V9.40907H15.2418L14.9406 11.7396H12.9326V17.7232H10.5248V11.7415H8.51099V9.40907H10.5248V7.69064C10.5248 5.6961 11.7432 4.60905 13.5234 4.60905C14.3768 4.60905 15.1086 4.67276 15.3229 4.70173V6.78508H15.321Z" fill="white"/>
+                            </svg></div>
+                        <div class="social"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M9.9996 7.39651C8.56601 7.39651 7.39609 8.56644 7.39609 10C7.39609 11.4336 8.56601 12.6035 9.9996 12.6035C11.4332 12.6035 12.6031 11.4336 12.6031 10C12.6031 8.56644 11.4332 7.39651 9.9996 7.39651ZM17.8082 10C17.8082 8.92191 17.818 7.85355 17.7574 6.77737C17.6969 5.52737 17.4117 4.418 16.4977 3.50394C15.5816 2.58792 14.4742 2.30472 13.2242 2.24417C12.1461 2.18363 11.0777 2.19339 10.0016 2.19339C8.92343 2.19339 7.85507 2.18363 6.7789 2.24417C5.5289 2.30472 4.41953 2.58988 3.50546 3.50394C2.58945 4.41995 2.30624 5.52737 2.2457 6.77737C2.18515 7.8555 2.19492 8.92386 2.19492 10C2.19492 11.0762 2.18515 12.1465 2.2457 13.2227C2.30624 14.4727 2.5914 15.5821 3.50546 16.4961C4.42148 17.4121 5.5289 17.6953 6.7789 17.7559C7.85703 17.8164 8.92539 17.8067 10.0016 17.8067C11.0797 17.8067 12.148 17.8164 13.2242 17.7559C14.4742 17.6953 15.5836 17.4102 16.4977 16.4961C17.4137 15.5801 17.6969 14.4727 17.7574 13.2227C17.8199 12.1465 17.8082 11.0782 17.8082 10ZM9.9996 14.0059C7.78281 14.0059 5.99375 12.2168 5.99375 10C5.99375 7.78323 7.78281 5.99417 9.9996 5.99417C12.2164 5.99417 14.0055 7.78323 14.0055 10C14.0055 12.2168 12.2164 14.0059 9.9996 14.0059ZM14.1695 6.76566C13.6519 6.76566 13.234 6.34769 13.234 5.83011C13.234 5.31253 13.6519 4.89456 14.1695 4.89456C14.6871 4.89456 15.1051 5.31253 15.1051 5.83011C15.1052 5.95301 15.0811 6.07473 15.0342 6.18831C14.9872 6.30188 14.9183 6.40508 14.8314 6.49198C14.7445 6.57889 14.6413 6.64779 14.5277 6.69476C14.4142 6.74172 14.2924 6.76581 14.1695 6.76566Z" fill="white"/>
+                            </svg></div>
+                    </div>
+                </div>
+            </div>
+      </div>
+      <div class="wrapper">
+        <div class=" header-nav">
+            <div class="logo"><a href="#"><img src="img/logo.png"  alt=""></a></div>
+            <div class="header-nav__list ">
+                <div class="header-nav__item ">
+                    <a href="#" class="">Laptops</a>
+                    <ul class="dropdown">
+                        <li class="">MacBook </li>
+                        <li class="">Dell </li>
+                        <li class="">HP </li>
+                        <li class="">Lenovo ThinkPad  </li>
+                    </ul>
+                </div>
+                <div class="header-nav__item">
+                    <a href="#">Desktop PCs</a>
+                    <ul class="dropdown">
+                        <li class="id">Dell OptiPlex 3070</li>
+                        <li class="li">HP EliteDesk 800 G5</li>
+                        <li class="li">Lenovo ThinkCentre M720s</li>
+                        <li class="li">Apple iMac 27-inch</li>
+                    </ul>
+                 </div>
+                
+                <div class="header-nav__item">
+                    <a href="#">Networking Devices</a>
+                    <ul class="dropdown">
+                        <li class="">Netgear Nighthawk AC2300</li>
+                        <li class="">TP-Link Archer C7</li>
+                        <li class="">Google Nest Wifi</li>
+                        <li class="">Asus RT-AC88U</li>
+                    </ul>
+                </div>
+                <div class="header-nav__item">
+                    <a href="#">Printers  & Scanners</a>
+                    <ul class="dropdown">
+                        <li class="">HP LaserJet Pro M15w</li>
+                        <li class="">Canon Pixma MG3620</li>
+                        <li class="">Epson WorkForce WF-7210DTW</li>
+                    </ul>
+                </div>
+                <div class="header-nav__item">
+                    <a href="#">PCParts</a>
+                    <ul class="dropdown">
+                        <li class="">Intel Core i7-9700K Processor</li>
+                        <li class="">Corsair Vengeance LPX 16GB RAM</li>
+                        <li class="">Samsung 970 EVO SSD</li>
+                        <li class="">NVIDIA GeForce RTX 2080 Ti Graphics Card</li>
+                    </ul>
+                </div>
+                <div class="header-nav__item">
+                    <a href="#">All Other Products</a> 
+                    <ul class="dropdown">
+                        <li class="">Logitech MX Master 3 Mouse</li>
+                        <li class="">Microsoft Surface Keyboard</li>
+                        <li class="">Samsung T5 Portable SSD</li>
+                        <li class="">Anker PowerCore 20100mAh Portable Charger</li>
+                    </ul>
+                </div>
+                <div class="header-nav__item">
+                    <a href="#">Repairs</a> 
+                    <ul class="dropdown">
+                        <li class="">Laptop screen replacement </li>
+                        <li class="">Hard drive data recovery</li>
+                        <li class="">Virus and malware removal </li>
+                        <li class=""> Hardware upgrades and installation</li>
+                    </ul>
+                </div>
+               
+            </div>
+            <div class="header-search hidden" >
+                <form action="" method="post" ><input  class="search-input" type="text" placeholder="Search entiere store here..."></form>
+            </div>
+            <div class="header-nav__ecommerce">
+                <div class="ecommerce_search"><img src="img/gg_search.svg" alt="">
+                </div>
+                <div class="ecommerce_cart"><span >2</span>
+                    <img src="img/jam_shopping-cart.svg" alt="">
+                </div>
+                <div class="ecommerce_user">
+                        <img src="img/anh.png" alt="">
+                </div>
+            </div>
+           
+        </div>
+        <div class="banner">
+            <div class="item">
+                <img class="banner-img active-slide" src="img/image 26.png" alt="">
+            </div>
+            <div class="item">
+                <img class="banner-img" src="img/tải xuống.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="banner-img" src="img/banner.jpg" alt="">
+            </div>
+            <div class="controls">
+                <div class="right"><img src="img/left.svg" alt=""></div>
+                <div class="left"><img src="img/right.svg" alt=""></div>
+            </div>
+        </div>
+        
+        
+        
+        
+      </div>
+    </header>
+    <div class="container wrapper">
+        <div class="product-new_list">
+            <div class="product-header">
+                <div class="product-header_cart">
+                    <h2 class="heading">
+                        New Products
+                    </h2>
+                    <div class="product-new-all"><a href="#">See all new Product</a></div>
+                </div>
+            </div>
+            <ul class="product-cart">
+                <li class="product-cart_list">
+                    <div class="stock"><img src="./img/Group 132.svg" alt="">in stock</div>
+                    <div class="cart-img">
+                        <img src="./img/image 29 (1).png" alt="">
+                        <button class="add-to-cart-button">Add to Cart</button>
+                    </div>
+                    <div class="cart-rule"> 
+                        <ul class="star">
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                        </ul>
+                    <div class="review">Review <span class="span-number">(4)</span></div>
+                    </div>
+                    <div class="cart-title"><a href="#">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</a></div>
+                    <div class="cart-price">
+                    <div class="discount"><strike>$ <span class="discount-product">499.00</span></strike></div>
+                        <div class="price">$<span class="price-prduct">499.00</span></div>
+                 </div>
+                </li>
+                <li class="product-cart_list">
+                    <div class="stock"><img src="./img/Group 135.svg" alt="">availability</div>
+                    <div class="cart-img"><img src="./img/image 29.png" alt="">
+                        <button class="add-to-cart-button">Add to Cart</button>
+                    </div>
+                    <div class="cart-rule"> 
+                        <ul class="star">
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                        </ul>
+                    <div class="review">Review <span class="span-number">(4)</span></div>
+                    </div>
+                    <div class="cart-title"><a href="#">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</a></div>
+                    <div class="cart-price">
+                    <div class="discount"><strike>$ <span class="discount-product">499.00</span></strike></div>
+                        <div class="price">$<span class="price-prduct">499.00</span></div>
+                 </div>
+                </li>
+                <li class="product-cart_list">
+                    <div class="stock"><img src="./img/Group 132.svg" alt="">in stock</div>
+                    <div class="cart-img">
+                        <img src="./img/image 29 (2).png" alt="">
+                        <button class="add-to-cart-button">Add to Cart</button>
+                    </div>
+                    <div class="cart-rule"> 
+                        <ul class="star">
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                        </ul>
+                    <div class="review">Review <span class="span-number">(4)</span></div>
+                    </div>
+                    <div class="cart-title"><a href="#">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</a></div>
+                    <div class="cart-price">
+                    <div class="discount"><strike>$ <span class="discount-product">499.00</span></strike></div>
+                        <div class="price">$<span class="price-prduct">499.00</span></div>
+                 </div>
+                </li>
+                <li class="product-cart_list">
+                    <div class="stock"><img src="./img/Group 132.svg" alt="">in stock</div>
+                    <div class="cart-img"><img src="./img/image 29 (3).png" alt=""> <button class="add-to-cart-button">Add to Cart</button></div>
+                    <div class="cart-rule"> 
+                        <ul class="star">
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                        </ul>
+                    <div class="review">Review <span class="span-number">(4)</span></div>
+                    </div>
+                    <div class="cart-title"><a href="#">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</a></div>
+                    <div class="cart-price">
+                    <div class="discount"><strike>$ <span class="discount-product">499.00</span></strike></div>
+                        <div class="price">$<span class="price-prduct">499.00</span></div>
+                 </div>
+                </li>
+                <li class="product-cart_list">
+                    <div class="stock"><img src="./img/Group 132.svg" alt="">in stock</div>
+                    <div class="cart-img"><img src="./img/image 29 (3).png" alt=""> <button class="add-to-cart-button">Add to Cart</button></div>
+                    <div class="cart-rule"> 
+                        <ul class="star">
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                        </ul>
+                    <div class="review">Review <span class="span-number">(4)</span></div>
+                    </div>
+                    <div class="cart-title"><a href="#">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</a></div>
+                    <div class="cart-price">
+                    <div class="discount"><strike>$ <span class="discount-product">499.00</span></strike></div>
+                        <div class="price">$<span class="price-prduct">499.00</span></div>
+                 </div>
+                </li>
+                <li class="product-cart_list">
+                    <div class="stock"><img src="./img/Group 132.svg" alt="">in stock</div>
+                    <div class="cart-img"><img src="./img/image 29 (2).png" alt=""> <button class="add-to-cart-button">Add to Cart</button></div>
+                    <div class="cart-rule"> 
+                        <ul class="star">
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                        </ul>
+                    <div class="review">Review <span class="span-number">(4)</span></div>
+                    </div>
+                    <div class="cart-title"><a href="#">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</a></div>
+                    <div class="cart-price">
+                    <div class="discount"><strike>$ <span class="discount-product">499.00</span></strike></div>
+                        <div class="price">$<span class="price-prduct">499.00</span></div>
+                 </div>
+                </li>
+            </ul>
+        </div>
+        <div class="brand">
+            <img src="img/primary 1.svg" alt="">
+            <span>|</span>
+            <div class="brand-text">own it now, up to 6 months interest free <a href="#">learn more</a></div>
+        </div>
+        <div class="product-new_list">
+            <ul class="product-cart">
+                <li class="product-cart_list-brand">
+                    <img src="img/custom (2).png" alt="">
+                    <div class="name-brand"><a href="#">Custome Builds</a></div>
+                </li>
+                <li class="product-cart_list">
+                    <div class="stock"><img src="./img/Group 132.svg" alt="">in stock</div>
+                    <div class="cart-img"><img src="./img/image 29.png" alt=""> <button class="add-to-cart-button">Add to Cart</button></div>
+                    <div class="cart-rule"> 
+                        <ul class="star">
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                        </ul>
+                    <div class="review">Review <span class="span-number">(4)</span></div>
+                    </div>
+                    <div class="cart-title"><a href="#">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</a></div>
+                    <div class="cart-price">
+                    <div class="discount"><strike>$ <span class="discount-product">499.00</span></strike></div>
+                        <div class="price">$<span class="price-prduct">499.00</span></div>
+                 </div>
+                </li>
+                <li class="product-cart_list">
+                    <div class="stock"><img src="./img/Group 132.svg" alt="">in stock</div>
+                    <div class="cart-img"><img src="./img/image 29 (2).png" alt=""> <button class="add-to-cart-button">Add to Cart</button></div>
+                    <div class="cart-rule"> 
+                        <ul class="star">
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                        </ul>
+                    <div class="review">Review <span class="span-number">(4)</span></div>
+                    </div>
+                    <div class="cart-title"><a href="#">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</a></div>
+                    <div class="cart-price">
+                    <div class="discount"><strike>$ <span class="discount-product">499.00</span></strike></div>
+                        <div class="price">$<span class="price-prduct">499.00</span></div>
+                 </div>
+                </li>
+                <li class="product-cart_list">
+                    <div class="stock"><img src="./img/Group 132.svg" alt="">in stock</div>
+                    <div class="cart-img"><img src="./img/image 29 (3).png" alt=""> <button class="add-to-cart-button">Add to Cart</button></div>
+                    <div class="cart-rule"> 
+                        <ul class="star">
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                        </ul>
+                    <div class="review">Review <span class="span-number">(4)</span></div>
+                    </div>
+                    <div class="cart-title"><a href="#">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</a></div>
+                    <div class="cart-price">
+                    <div class="discount"><strike>$ <span class="discount-product">499.00</span></strike></div>
+                        <div class="price">$<span class="price-prduct">499.00</span></div>
+                 </div>
+                </li>
+                <li class="product-cart_list">
+                    <div class="stock"><img src="./img/Group 132.svg" alt="">in stock</div>
+                    <div class="cart-img"><img src="./img/image 29 (3).png" alt=""> <button class="add-to-cart-button">Add to Cart</button></div>
+                    <div class="cart-rule"> 
+                        <ul class="star">
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                        </ul>
+                    <div class="review">Review <span class="span-number">(4)</span></div>
+                    </div>
+                    <div class="cart-title"><a href="#">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</a></div>
+                    <div class="cart-price">
+                    <div class="discount"><strike>$ <span class="discount-product">499.00</span></strike></div>
+                        <div class="price">$<span class="price-prduct">499.00</span></div>
+                 </div>
+                </li>
+                <li class="product-cart_list">
+                    <div class="stock"><img src="./img/Group 132.svg" alt="">in stock</div>
+                    <div class="cart-img"><img src="./img/image 29 (2).png" alt=""> <button class="add-to-cart-button">Add to Cart</button></div>
+                    <div class="cart-rule"> 
+                        <ul class="star">
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                        </ul>
+                    <div class="review">Review <span class="span-number">(4)</span></div>
+                    </div>
+                    <div class="cart-title"><a href="#">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</a></div>
+                    <div class="cart-price">
+                    <div class="discount"><strike>$ <span class="discount-product">499.00</span></strike></div>
+                        <div class="price">$<span class="price-prduct">499.00</span></div>
+                 </div>
+                </li>
+            </ul>
+            <div class="product-category">
+                <ul class="category-list">
+                    <li class="category-item active"><a href="#">MSI GS Series</a></li>
+                    <li class="category-item"><a href="#">MSI GS Series</a></li>
+                    <li class="category-item"><a href="#">MSI GS Series</a></li>
+                    <li class="category-item"><a href="#">MSI GS Series</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="product-new_list">
+            <ul class="product-cart">
+                <li class="product-cart_list-brand">
+                    <img src="img/laptopmsi.png" alt="">
+                    <div class="name-brand"><a href="#">MSI LAPTOPS</a></div>
+                </li>
+                <li class="product-cart_list">
+                    <div class="stock"><img src="./img/Group 132.svg" alt="">in stock</div>
+                    <div class="cart-img"><img src="./img/msi3.png" alt=""> <button class="add-to-cart-button">Add to Cart</button></div>
+                    <div class="cart-rule"> 
+                        <ul class="star">
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                        </ul>
+                    <div class="review">Review <span class="span-number">(4)</span></div>
+                    </div>
+                    <div class="cart-title"><a href="#">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</a></div>
+                    <div class="cart-price">
+                    <div class="discount"><strike>$ <span class="discount-product">499.00</span></strike></div>
+                        <div class="price">$<span class="price-prduct">499.00</span></div>
+                 </div>
+                </li>
+                <li class="product-cart_list">
+                    <div class="stock"><img src="./img/Group 132.svg" alt="">in stock</div>
+                    <div class="cart-img"><img src="./img/msi2.png" alt=""> <button class="add-to-cart-button">Add to Cart</button></div>
+                    <div class="cart-rule"> 
+                        <ul class="star">
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                        </ul>
+                    <div class="review">Review <span class="span-number">(4)</span></div>
+                    </div>
+                    <div class="cart-title"><a href="#">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</a></div>
+                    <div class="cart-price">
+                    <div class="discount"><strike>$ <span class="discount-product">499.00</span></strike></div>
+                        <div class="price">$<span class="price-prduct">499.00</span></div>
+                 </div>
+                </li>
+                <li class="product-cart_list">
+                    <div class="stock"><img src="./img/Group 132.svg" alt="">in stock</div>
+                    <div class="cart-img"><img src="./img/msi3.png" alt=""> <button class="add-to-cart-button">Add to Cart</button></div>
+                    <div class="cart-rule"> 
+                        <ul class="star">
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                        </ul>
+                    <div class="review">Review <span class="span-number">(4)</span></div>
+                    </div>
+                    <div class="cart-title"><a href="#">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</a></div>
+                    <div class="cart-price">
+                    <div class="discount"><strike>$ <span class="discount-product">499.00</span></strike></div>
+                        <div class="price">$<span class="price-prduct">499.00</span></div>
+                 </div>
+                </li>
+                <li class="product-cart_list">
+                    <div class="stock"><img src="./img/Group 132.svg" alt="">in stock</div>
+                    <div class="cart-img"><img src="./img/msi2.png" alt=""> <button class="add-to-cart-button">Add to Cart</button></div>
+                    <div class="cart-rule"> 
+                        <ul class="star">
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                        </ul>
+                    <div class="review">Review <span class="span-number">(4)</span></div>
+                    </div>
+                    <div class="cart-title"><a href="#">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</a></div>
+                    <div class="cart-price">
+                    <div class="discount"><strike>$ <span class="discount-product">499.00</span></strike></div>
+                        <div class="price">$<span class="price-prduct">499.00</span></div>
+                 </div>
+                </li>
+                <li class="product-cart_list">
+                    <div class="stock"><img src="./img/Group 132.svg" alt="">in stock</div>
+                    <div class="cart-img"><img src="./img/msi1.png" alt=""> <button class="add-to-cart-button">Add to Cart</button></div>
+                    <div class="cart-rule"> 
+                        <ul class="star">
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                        </ul>
+                    <div class="review">Review <span class="span-number">(4)</span></div>
+                    </div>
+                    <div class="cart-title"><a href="#">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</a></div>
+                    <div class="cart-price">
+                    <div class="discount"><strike>$ <span class="discount-product">499.00</span></strike></div>
+                        <div class="price">$<span class="price-prduct">499.00</span></div>
+                 </div>
+                </li>
+            </ul>
+            <div class="product-category">
+                <ul class="category-list">
+                    <li class="category-item active"><a href="#">MSI Infinute Series</a></li>
+                    <li class="category-item"><a href="#">MSI Triden</a></li>
+                    <li class="category-item"><a href="#">MSI GL Series</a></li>
+                    <li class="category-item"><a href="#">MSI Nightblade</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="product-new_list">
+            <ul class="product-cart">
+                <li class="product-cart_list-brand">
+                    <img src="img/destop.png" alt="">
+                    <div class="name-brand"><a href="#">Desktops</a></div>
+                </li>
+                <li class="product-cart_list">
+                    <div class="stock"><img src="./img/Group 132.svg" alt="">in stock</div>
+                    <div class="cart-img"><img src="./img/destop1.png" alt=""> <button class="add-to-cart-button">Add to Cart</button> <button class="add-to-cart-button">Add to Cart</button></div>
+                    <div class="cart-rule"> 
+                        <ul class="star">
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                        </ul>
+                    <div class="review">Review <span class="span-number">(4)</span></div>
+                    </div>
+                    <div class="cart-title"><a href="#">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</a></div>
+                    <div class="cart-price">
+                    <div class="discount"><strike>$ <span class="discount-product">499.00</span></strike></div>
+                        <div class="price">$<span class="price-prduct">499.00</span></div>
+                 </div>
+                </li>
+                <li class="product-cart_list">
+                    <div class="stock"><img src="./img/Group 132.svg" alt="">in stock</div>
+                    <div class="cart-img"><img src="./img/destop2.png" alt=""> <button class="add-to-cart-button">Add to Cart</button> <button class="add-to-cart-button">Add to Cart</button></div>
+                    <div class="cart-rule"> 
+                        <ul class="star">
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                        </ul>
+                    <div class="review">Review <span class="span-number">(4)</span></div>
+                    </div>
+                    <div class="cart-title"><a href="#">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</a></div>
+                    <div class="cart-price">
+                    <div class="discount"><strike>$ <span class="discount-product">499.00</span></strike></div>
+                        <div class="price">$<span class="price-prduct">499.00</span></div>
+                 </div>
+                </li>
+                <li class="product-cart_list">
+                    <div class="stock"><img src="./img/Group 132.svg" alt="">in stock</div>
+                    <div class="cart-img"><img src="./img/destop3.png" alt=""> <button class="add-to-cart-button">Add to Cart</button> <button class="add-to-cart-button">Add to Cart</button></div>
+                    <div class="cart-rule"> 
+                        <ul class="star">
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                        </ul>
+                    <div class="review">Review <span class="span-number">(4)</span></div>
+                    </div>
+                    <div class="cart-title"><a href="#">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</a></div>
+                    <div class="cart-price">
+                    <div class="discount"><strike>$ <span class="discount-product">499.00</span></strike></div>
+                        <div class="price">$<span class="price-prduct">499.00</span></div>
+                 </div>
+                </li>
+                <li class="product-cart_list">
+                    <div class="stock"><img src="./img/Group 132.svg" alt="">in stock</div>
+                    <div class="cart-img"><img src="./img/destop2.png" alt=""> <button class="add-to-cart-button">Add to Cart</button> <button class="add-to-cart-button">Add to Cart</button></div>
+                    <div class="cart-rule"> 
+                        <ul class="star">
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                        </ul>
+                    <div class="review">Review <span class="span-number">(4)</span></div>
+                    </div>
+                    <div class="cart-title"><a href="#">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</a></div>
+                    <div class="cart-price">
+                    <div class="discount"><strike>$ <span class="discount-product">499.00</span></strike></div>
+                        <div class="price">$<span class="price-prduct">499.00</span></div>
+                 </div>
+                </li>
+                <li class="product-cart_list">
+                    <div class="stock"><img src="./img/Group 132.svg" alt="">in stock</div>
+                    <div class="cart-img"><img src="./img/destop1.png" alt=""> <button class="add-to-cart-button">Add to Cart</button> <button class="add-to-cart-button">Add to Cart</button></div>
+                    <div class="cart-rule"> 
+                        <ul class="star">
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                        </ul>
+                    <div class="review">Review <span class="span-number">(4)</span></div>
+                    </div>
+                    <div class="cart-title"><a href="#">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</a></div>
+                    <div class="cart-price">
+                    <div class="discount"><strike>$ <span class="discount-product">499.00</span></strike></div>
+                        <div class="price">$<span class="price-prduct">499.00</span></div>
+                 </div>
+                </li>
+            </ul>
+            
+        </div>
+        <div class="product-new_list">
+            <ul class="product-cart">
+                <li class="product-cart_list-brand">
+                    <img src="img/man.png" alt="">
+                    <div class="name-brand"><a href="#">Gaming Monitors</a></div>
+                </li>
+                <li class="product-cart_list">
+                    <div class="stock"><img src="./img/Group 132.svg" alt="">in stock</div>
+                    <div class="cart-img"><img src="./img/man1.png" alt=""> <button class="add-to-cart-button">Add to Cart</button></div>
+                    <div class="cart-rule"> 
+                        <ul class="star">
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                        </ul>
+                    <div class="review">Review <span class="span-number">(4)</span></div>
+                    </div>
+                    <div class="cart-title"><a href="#">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</a></div>
+                    <div class="cart-price">
+                    <div class="discount"><strike>$ <span class="discount-product">499.00</span></strike></div>
+                        <div class="price">$<span class="price-prduct">499.00</span></div>
+                 </div>
+                </li>
+                <li class="product-cart_list">
+                    <div class="stock"><img src="./img/Group 132.svg" alt="">in stock</div>
+                    <div class="cart-img"><img src="./img/man1.png" alt=""> <button class="add-to-cart-button">Add to Cart</button></div>
+                    <div class="cart-rule"> 
+                        <ul class="star">
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                        </ul>
+                    <div class="review">Review <span class="span-number">(4)</span></div>
+                    </div>
+                    <div class="cart-title"><a href="#">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</a></div>
+                    <div class="cart-price">
+                    <div class="discount"><strike>$ <span class="discount-product">499.00</span></strike></div>
+                        <div class="price">$<span class="price-prduct">499.00</span></div>
+                 </div>
+                </li>
+                <li class="product-cart_list">
+                    <div class="stock"><img src="./img/Group 132.svg" alt="">in stock</div>
+                    <div class="cart-img"><img src="./img/man2.png" alt=""> <button class="add-to-cart-button">Add to Cart</button></div>
+                    <div class="cart-rule"> 
+                        <ul class="star">
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                        </ul>
+                    <div class="review">Review <span class="span-number">(4)</span></div>
+                    </div>
+                    <div class="cart-title"><a href="#">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</a></div>
+                    <div class="cart-price">
+                    <div class="discount"><strike>$ <span class="discount-product">499.00</span></strike></div>
+                        <div class="price">$<span class="price-prduct">499.00</span></div>
+                 </div>
+                </li>
+                <li class="product-cart_list">
+                    <div class="stock"><img src="./img/Group 132.svg" alt="">in stock</div>
+                    <div class="cart-img"><img src="./img/man1.png" alt=""> <button class="add-to-cart-button">Add to Cart</button></div>
+                    <div class="cart-rule"> 
+                        <ul class="star">
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                        </ul>
+                    <div class="review">Review <span class="span-number">(4)</span></div>
+                    </div>
+                    <div class="cart-title"><a href="#">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</a></div>
+                    <div class="cart-price">
+                    <div class="discount"><strike>$ <span class="discount-product">499.00</span></strike></div>
+                        <div class="price">$<span class="price-prduct">499.00</span></div>
+                 </div>
+                </li>
+                <li class="product-cart_list">
+                    <div class="stock"><img src="./img/Group 132.svg" alt="">in stock</div>
+                    <div class="cart-img"><img src="./img/man2.png" alt=""><button class="add-to-cart-button">Add to Cart</button></div>
+                    <div class="cart-rule"> 
+                        <ul class="star">
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                            <li><img src="./img/Star 8.png" alt=""></li>
+                        </ul>
+                    <div class="review">Review <span class="span-number">(4)</span></div>
+                    </div>
+                    <div class="cart-title"><a href="#">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</a></div>
+                    <div class="cart-price">
+                    <div class="discount"><strike>$ <span class="discount-product">499.00</span></strike></div>
+                        <div class="price">$<span class="price-prduct">499.00</span></div>
+                 </div>
+                </li>
+            </ul>
+            
+        </div>
+        <div class="brand-logo_list">
+            <div class="brand-logo_item"><img src="img/logo1.png" alt=""></div>
+            <div class="brand-logo_item"><img src="img/logo2.png" alt=""></div>
+            <div class="brand-logo_item"><img src="img/logo3.png" alt=""></div>
+            <div class="brand-logo_item"><img src="img/logo4.png" alt=""></div>
+            <div class="brand-logo_item"><img src="img/logo5.png" alt=""></div>
+            <div class="brand-logo_item"><img src="img/logo6.png" alt=""></div>
+            <div class="brand-logo_item"><img src="img/logo7.png" alt=""></div>
+        </div>
+        <div class="product-new_list">
+            <div class="product-header">
+                <div class="product-header_cart">
+                    <h2 class="heading">
+                        Follow us on Instagram for News, Offers & More
+                    </h2>
+                   
+                </div>
+            </div>
+            <div class="news">
+                <ul class="news-list">
+                    <li class="news-item">
+                        <div class="new-list"><img src="./img/a1 (2).png" alt=""></div>
+                        <a class="list-content">If you’ve recently made a desktop PC or laptop purchase, you might want to consider adding peripherals to enhance your home office setup, your gaming rig, or your business workspace...</a>
+                    </li>
+                    <li class="news-item">
+                        <div class="new-list"><img src="./img/a2 (2).png" alt=""></div>
+                         <a class="list-content">As a gamer, superior sound counts for a lot. You need to hear enemies tiptoeing up behind you for a sneak attack or a slight change in the atmospheric music signaling a new challenge or task...</a>
+                    </li>
+                    <li class="news-item">
+                        <div class="new-list"><img src="./img/a3.png" alt=""></div>
+                         <a class="list-content">If you’ve recently made a desktop PC or laptop purchase, you might want to consider adding peripherals to enhance your home office setup, your gaming rig, or your business workspace...</a>
+                    </li>
+                    <li class="news-item">
+                        <div class="new-list"><img src="./img/a4.png" alt=""></div>
+                         <a class="list-content">As a gamer, superior sound counts for a lot. You need to hear enemies tiptoeing up behind you for a sneak attack or a slight change in the atmospheric music signaling a new challenge or task...</a>
+                    </li>
+                    <li class="news-item">
+                        <div class="new-list"><img src="./img/a5.png" alt=""></div>
+                         <a class="list-content">If you’ve recently made a desktop PC or laptop purchase, you might want to consider adding peripherals to enhance your home office setup, your gaming rig, or your business workspace...</a>
+                    </li>
+                    <li class="news-item">
+                        <div class="new-list"><img src="./img/a6.png" alt=""></div>
+                         <a class="list-content">As a gamer, superior sound counts for a lot. You need to hear enemies tiptoeing up behind you for a sneak attack or a slight change in the atmospheric music signaling a new challenge or task...</a>
+                    </li>
+                    <li class="news-item">
+                        <div class="new-list"><img src="./img/a7.png" alt=""></div>
+                         <a class="list-content">As a gamer, superior sound counts for a lot. You need to hear enemies tiptoeing up behind you for a sneak attack or a slight change in the atmospheric music signaling a new challenge or task...</a>
+                    </li>
+                    <li class="news-item">
+                        <div class="new-list"><img src="./img/a5.png" alt=""></div>
+                         <a class="list-content">As a gamer, superior sound counts for a lot. You need to hear enemies tiptoeing up behind you for a sneak attack or a slight change in the atmospheric music signaling a new challenge or task...</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="commentary">
+            <div class="commentary-content">
+                <div class="commentary-header">
+                    <div class="quotation">"</div>
+                    <div class="note">My first order arrived today in perfect condition. From the time I sent a question about the item to making the purchase, to the shipping and now the delivery, your company, Tecs, has stayed in touch. Such great service. I look forward to shopping on your site in the future and would highly recommend it.</div>
+                </div>
+                <div class="name-author">"Doanh Chính"</div>
+                <div class="commentary-form">
+                    <div class="commentary-action">
+                        <a href="#">Leave Us A Review</a>
+                    </div>
+                    <div class="dot-list">
+                        <ul class="dot">
+                            <li class="active"></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="intro-wrap">
+            
+            <ul class="intro-card__list">
+                <li class="intro-card__item item-1">
+                    <img src="./img/bx_bx-support.svg" alt="" class="intro-card__icon">
+                    <h3 class="intro-card__title">Product Support</h3>
+                    <p class="intro-card__desc">Up to 3 years on-site warranty available for your peace of mind.</p>
+                </li>
+                <li class="intro-card__item item-2">
+                    <img src="./img/ri_account-pin-circle-fill.svg" alt="" class="intro-card__icon">
+                    <h3 class="intro-card__title">Personal Account</h3>
+                    <p class="intro-card__desc">With big discounts, free delivery and a dedicated support specialist.</p>
+                </li>
+                <li class="intro-card__item item-3">
+                    <img src="./img/bx_bx-support.svg" alt="" class="intro-card__icon">
+                    <h3 class="intro-card__title">Amazing Savings</h3>
+                    <p class="intro-card__desc">Up to 70% off new Products, you can be sure of the best price.</p>
+                </li>
+            </ul>
+          </div>
+    </div>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer-content">
+                <div class="footer-content-title">Sign Up To Our Newsletter.</div>
+                <div class="footer-email">
+                    
+                        <form action="" >
+            
+                            <input class="footer-input" type="text" placeholder="Your email">
+                        </form>
+                        <button class="footer-button">Đăng ký đi</button>
+                    
+                </div>
+            </div>
+            <div class="footer-body">
+                <div class="info">
+                    <p>Information</p>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">About zip</a> </li>
+                        <li><a href="#">Search</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="info">
+                    <p>PC Parts </p>
+                    <ul>
+                        <li><a href="#">CPU</a></li>
+                        <li><a href="#">Add On Cards</a> </li>
+                        <li><a href="#">Hard drive</a> </li>
+                        <li><a href="#">RAM</a></li>
+                    </ul>
+                </div>
+                <div class="info">
+                    <p>Destop PC</p>
+                    <ul>
+                        <li><a href="#">Custom PC</a> </li>
+                        <li><a href="#">MSI ALL-in-Cre</a></li>
+                        <li><a href="#">Asus PC</a></li>
+                        <li><a href="#">TECTS PC</a></li>
+                    </ul>
+                </div>
+                <div class="info">
+                    <p>Address</p>
+                    <ul>
+                        <li>Adress:123 Đồng tiến Ứng hòa</li>
+                        <li>Phone: 0686688888</li>
+                        <li>Friday:9AM-6PM</li>
+                        <li>Email:msi@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
